@@ -1,0 +1,6 @@
+{
+  "name": "WinGo 24/7 Automated Lottery Analysis & Bot System",
+  "description": "Continuous WinGo 30S lottery ingestion, multi-factor pattern analyzer, Firebase RTDB sync, and Telegram notification bot engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=WinGo 30S 24/7 Automated Lottery Analysis & Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/wingo-bot
+EnvironmentFile=/opt/wingo-bot/.env
+ExecStart=/opt/wingo-bot/venv/bin/python3 /opt/wingo-bot/bot.py
+Restart=always
+RestartSec=5s
+KillSignal=SIGTERM
+TimeoutStopSec=10s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
