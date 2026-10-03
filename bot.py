@@ -50,7 +50,7 @@ logging.basicConfig(
 logger = logging.getLogger("bot_main")
 
 # Configuration constants
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8955426078:AAFyefL1ul-qt6HtYhFOhuQVIW4_k47R7Pw")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8955426078:AAEjgvtoMPYDb2gl8vgf8yXmaIiq7UfRu5s")
 WINGO_API_URL = os.getenv("WINGO_API_URL", "https://draw.ar-lottery01.com/WinGo/WinGo_30S/GetHistoryIssuePage.json")
 POLL_INTERVAL_BASE = float(os.getenv("POLL_INTERVAL_SECONDS", "3.5"))
 SUBSCRIBERS_FILE = os.getenv("SUBSCRIBERS_FILE", "subscribers.json")
